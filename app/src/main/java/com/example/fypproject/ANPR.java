@@ -338,7 +338,6 @@ public class ANPR extends AppCompatActivity implements CameraBridgeViewBase.CvCa
                 } else {
                     Toast.makeText(ANPR.this, "Detected: " + text, Toast.LENGTH_LONG).show();
                 }
-                updateUI();
             }
         }).addOnFailureListener(e -> {
             // Task failed with an exception
@@ -392,6 +391,7 @@ public class ANPR extends AppCompatActivity implements CameraBridgeViewBase.CvCa
         }
 
         updateUI();
+        output_text.setVisibility(View.VISIBLE);
         updateSQL(TYPE, output, carpark);
     }
 
@@ -423,7 +423,7 @@ public class ANPR extends AppCompatActivity implements CameraBridgeViewBase.CvCa
             carpark = "P4";
         } else if (address.equals("39 Woodlands Ave 9, Singapore 737903") || address.equals("35 Woodlands Ave 9, Singapore 737905")
         || address.contains("809") || address.contains("876") || address.contains("874") || address.contains("53")
-        || address.contains("43")) {
+        || address.contains("43") || address.contains("33") || address.contains("81")) {
             location1 = address + " Car park 3";
             carpark = "P3";
         } else if (address.equals("27 Woodlands Ave 9, Singapore 737909")) {
