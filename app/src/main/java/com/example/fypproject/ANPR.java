@@ -391,6 +391,7 @@ public class ANPR extends AppCompatActivity implements CameraBridgeViewBase.CvCa
             Toast.makeText(this, "Vehicle is not approved to park here: " + carpark, Toast.LENGTH_SHORT).show();
         }
 
+        updateUI();
         updateSQL(TYPE, output, carpark);
     }
 
