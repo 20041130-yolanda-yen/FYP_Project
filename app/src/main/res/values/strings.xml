@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FYP Project</string>
+
+    <string-array name="carparkList">
+        <item>Edit location</item>
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+    </string-array>
+</resources>

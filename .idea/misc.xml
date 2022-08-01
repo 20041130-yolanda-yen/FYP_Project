@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/activity_anpr.xml" value="0.1" />
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/activity_brand_color.xml" value="0.11302083333333333" />
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/activity_location.xml" value="0.25416666666666665" />
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/activity_webscrap.xml" value="0.25416666666666665" />
+        <entry key="..\:/ProjectFiles/FYPProject/app/src/main/res/layout/dialog_spinner.xml" value="0.11354166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
